@@ -42,6 +42,8 @@ A static helper method which sleeps with the necessary try/catch can save some c
             log("interrupted");
         }   
     }
+
+
 Expected (but not necessarily in the same order) output:
 
 Please enter 3 integers separate by a space: 2 4 6
