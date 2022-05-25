@@ -23,7 +23,7 @@ Hints:
         void run() {}
     }
  
-- You can call join() on the elements of the thread array using a loop, e.g.
+You can call join() on the elements of the thread array using a loop, e.g.
 
         for (int i = 0; i < ARRAYSZ; i++)
         {
