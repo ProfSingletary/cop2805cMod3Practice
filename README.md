@@ -6,22 +6,22 @@ Write a multi-threaded Java program named "TimerThread" which prompts the user f
 
 Hints:
 
-Define a class which extends the Thread class so you can store the number associated with that thread.
-Override the run method in your extended class to perform the sleep/delay/repeat operation.
-Provide a constructor for your extended class which sets the integer as a parameter and starts the thread.
-Store the instantiated thread objects (your extended class) in an array in your main method.
-Call the start method in the constructor to start the object's run method as a thread as shown here:
+- Define a class which extends the Thread class so you can store the number associated with that thread.
+- Override the run method in your extended class to perform the sleep/delay/repeat operation.
+- Provide a constructor for your extended class which sets the integer as a parameter and starts the thread.
+- Store the instantiated thread objects (your extended class) in an array in your main method.
+- Call the start method in the constructor to start the object's run method as a thread as shown here:
 
     class MyObject extends Thread {
         int myNumber;
-
+        
         public MyObject(int myNumber) {
                 this.myNumber = myNumber;
                 start();        
         }
 
         void run() {}
-    } 
+    }
  
  You can call join() on the elements of the thread array using a loop, e.g.
  
